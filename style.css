@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(60deg, rgb(0, 35, 63),rgb(50, 1, 9));
+}
+.main-cont{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 80%;
+    width: 80%;
+    /* border: 1px solid wheat; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+.main-cont h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+
+    
+}
+.main-cont h1 span{
+    color: chocolate;
+}
+textarea{
+    width: 550px;
+    height: 280px;
+    border: 1px solid rgb(41, 177, 255);
+    background-color: transparent;
+    resize: none;
+    padding: 13px;
+    color: white;
+    margin-top: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+
+}
+textarea::placeholder{
+    color: white;
+    font-size: 18px;
+    opacity: 0.6;
+}
+textarea:focus{
+    outline: whitesmoke;
+}
+  
+
+.main-child{
+    display: flex;
+    gap: 10px;
+   width: 40%;
+   border: 10px;
+  /* border: 1px solid red; */
+margin-top: 7px;
+
+}
+.main-child button{
+    height: 50px;
+    width: 120px;
+    background-color: darkgoldenrod;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   
+}
+
+button img{
+    width: 30px;
+}
+select{
+    height: 40px;
+    flex: 1;
+    background-color: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+}
